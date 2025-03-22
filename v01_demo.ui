@@ -1,0 +1,28 @@
+<UI version="4.0" >
+ <class>v01_demoClass</class>
+ <widget class="QMainWindow" name="v01_demoClass" >
+  <property name="objectName" >
+   <string notr="true">v01_demoClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>v01_demo</string>
+  </property>  <widget class="QMenuBar" name="menuBar" />
+  <widget class="QToolBar" name="mainToolBar" />
+  <widget class="QWidget" name="centralWidget" />
+  <widget class="QStatusBar" name="statusBar" />
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="v01_demo.qrc"/>
+ </resources>
+ <connections/>
+</UI>

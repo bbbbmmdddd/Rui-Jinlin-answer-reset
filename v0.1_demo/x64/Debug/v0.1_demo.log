@@ -1,0 +1,60 @@
+﻿生成启动时间为 2025/3/22 18:41:02。
+日志记录详细程度设置为: Normal。     1>项目“D:\瑞金林答题_重置版\v0.1_demo\v0.1_demo.vcxproj”在节点 2 上(Build 个目标)。
+     1>PrepareForBuild:
+         已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+         正在创建目录“D:\瑞金林答题_重置版\v0.1_demo\x64\Debug\”。
+       InitializeBuildStatus:
+         正在创建“v0.1_demo\x64\Debug\v0.1_demo.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+         正在对“v0.1_demo\x64\Debug\v0.1_demo.tlog\unsuccessfulbuild”执行 Touch 任务。
+       QtPrepare:
+          Qt/MSBuild: 3.3.1.1
+       QtQmlStaticGenerateImportFile:
+       正在跳过目标“QtQmlStaticGenerateImportFile”，因为所有输出文件相对于输入文件而言都是最新的。
+       QtVars:
+       正在跳过目标“QtVars”，因为所有输出文件相对于输入文件而言都是最新的。
+       QtVarsLoad:
+          Qt: 6.8.2
+       QtUicSetModified:
+       正在跳过目标“QtUicSetModified”，因为所有输出文件相对于输入文件而言都是最新的。
+       QtUic:
+       正在跳过目标“QtUic”，因为所有输出文件相对于输入文件而言都是最新的。
+       QtRccSetModified:
+       正在跳过目标“QtRccSetModified”，因为所有输出文件相对于输入文件而言都是最新的。
+       QtRccFilterSetModified:
+       正在跳过目标“QtRccFilterSetModified”，因为它没有输出。
+       QtRccFilter:
+       正在跳过目标“QtRccFilter”，因为它没有输出。
+       QtQmlSetModified:
+       正在跳过目标“QtQmlSetModified”，因为它没有输出。
+       QtQmlCacheItem:
+       正在跳过目标“QtQmlCacheItem”，因为它没有输出。
+       QtRcc:
+       正在跳过目标“QtRcc”，因为所有输出文件相对于输入文件而言都是最新的。
+       QtMocSetModified:
+       正在跳过目标“QtMocSetModified”，因为所有输出文件相对于输入文件而言都是最新的。
+       QtMoc:
+       正在跳过目标“QtMoc”，因为所有输出文件相对于输入文件而言都是最新的。
+       ClCompile:
+         D:\Microsoft Visual Studio\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Iv0.1_demo\x64\Debug\qt\moc /Iv0.1_demo\x64\Debug\qt\uic /I"D:\?????_???\v0.1_demo\v0.1_demo\x64\Debug\qt\qmake" /ID:\QT\6.8.2\msvc2022_64\include /ID:\QT\6.8.2\msvc2022_64\include\QtWidgets /ID:\QT\6.8.2\msvc2022_64\include\QtGui /ID:\QT\6.8.2\msvc2022_64\include\QtCore /I"D:\QT\6.8.2\msvc2022_64\mkspecs\win32-msvc" /I"D:\瑞金林答题_重置版\v0.1_demo\\" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /MP /Od /D _WINDOWS /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /permissive- /Fo"v0.1_demo\x64\Debug\\" /Fd"v0.1_demo\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt -Zc:rvalueCast -Zc:strictStrings -Zc:throwingNew -Zc:__cplusplus -Zc:externConstexpr -utf-8 v01_demo.cpp main.cpp
+         v01_demo.cpp
+         main.cpp
+         D:\Microsoft Visual Studio\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Iv0.1_demo\x64\Debug\qt\moc /Iv0.1_demo\x64\Debug\qt\uic /I"D:\?????_???\v0.1_demo\v0.1_demo\x64\Debug\qt\qmake" /ID:\QT\6.8.2\msvc2022_64\include /ID:\QT\6.8.2\msvc2022_64\include\QtWidgets /ID:\QT\6.8.2\msvc2022_64\include\QtGui /ID:\QT\6.8.2\msvc2022_64\include\QtCore /I"D:\QT\6.8.2\msvc2022_64\mkspecs\win32-msvc" /I"D:\瑞金林答题_重置版\v0.1_demo\\" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /MP /Od /D _WINDOWS /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /permissive- /Fo"v0.1_demo\x64\Debug\\" /Fd"v0.1_demo\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /wd4711 /FC /errorReport:prompt -Zc:rvalueCast -Zc:strictStrings -Zc:throwingNew -Zc:__cplusplus -Zc:externConstexpr -utf-8 v0.1_demo\x64\Debug\qt\rcc\qrc_v01_demo.cpp
+         qrc_v01_demo.cpp
+         D:\Microsoft Visual Studio\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\CL.exe /c /Iv0.1_demo\x64\Debug\qt\moc /Iv0.1_demo\x64\Debug\qt\uic /I"D:\?????_???\v0.1_demo\v0.1_demo\x64\Debug\qt\qmake" /ID:\QT\6.8.2\msvc2022_64\include /ID:\QT\6.8.2\msvc2022_64\include\QtWidgets /ID:\QT\6.8.2\msvc2022_64\include\QtGui /ID:\QT\6.8.2\msvc2022_64\include\QtCore /I"D:\QT\6.8.2\msvc2022_64\mkspecs\win32-msvc" /I"D:\瑞金林答题_重置版\v0.1_demo\\" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /MP /Od /D _WINDOWS /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /permissive- /Fo"v0.1_demo\x64\Debug\\" /Fd"v0.1_demo\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt -Zc:rvalueCast -Zc:strictStrings -Zc:throwingNew -Zc:__cplusplus -Zc:externConstexpr -utf-8 v0.1_demo\x64\Debug\qt\moc\moc_v01_demo.cpp
+         moc_v01_demo.cpp
+       Link:
+         D:\Microsoft Visual Studio\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\瑞金林答题_重置版\v0.1_demo\x64\Debug\v0.1_demo.exe" /INCREMENTAL /ILK:"v0.1_demo\x64\Debug\v0.1_demo.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib D:\QT\6.8.2\msvc2022_64\lib\Qt6Widgetsd.lib D:\QT\6.8.2\msvc2022_64\lib\Qt6Guid.lib D:\QT\6.8.2\msvc2022_64\lib\Qt6Cored.lib D:\QT\6.8.2\msvc2022_64\lib\Qt6EntryPointd.lib shell32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\瑞金林答题_重置版\v0.1_demo\x64\Debug\v0.1_demo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\瑞金林答题_重置版\v0.1_demo\x64\Debug\v0.1_demo.lib" /MACHINE:X64 /NATVIS:"v0.1_demo\x64\Debug\qt.natvis" /NATVIS:"v0.1_demo\x64\Debug\\qt.natvis" v0.1_demo\x64\Debug\v01_demo.obj
+         v0.1_demo\x64\Debug\main.obj
+         v0.1_demo\x64\Debug\qrc_v01_demo.obj
+         v0.1_demo\x64\Debug\moc_v01_demo.obj
+         v0.1_demo.vcxproj -> D:\瑞金林答题_重置版\v0.1_demo\x64\Debug\v0.1_demo.exe
+       FinalizeBuildStatus:
+         正在删除文件“v0.1_demo\x64\Debug\v0.1_demo.tlog\unsuccessfulbuild”。
+         正在对“v0.1_demo\x64\Debug\v0.1_demo.tlog\v0.1_demo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\瑞金林答题_重置版\v0.1_demo\v0.1_demo.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:03.59
