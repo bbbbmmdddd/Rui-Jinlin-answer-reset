@@ -11,8 +11,11 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
@@ -22,25 +25,65 @@ QT_BEGIN_NAMESPACE
 class Ui_v01_demoClass
 {
 public:
+    QWidget *centralWidget;
+    QLabel *label;
+    QLineEdit *lineEdit;
+    QLabel *label_2;
+    QPushButton *pushButton;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
-    QWidget *centralWidget;
     QStatusBar *statusBar;
 
     void setupUi(QMainWindow *v01_demoClass)
     {
         if (v01_demoClass->objectName().isEmpty())
             v01_demoClass->setObjectName("v01_demoClass");
-        v01_demoClass->resize(600, 400);
+        v01_demoClass->setEnabled(true);
+        v01_demoClass->resize(1087, 445);
+        QFont font;
+        font.setUnderline(false);
+        font.setKerning(true);
+        v01_demoClass->setFont(font);
+        centralWidget = new QWidget(v01_demoClass);
+        centralWidget->setObjectName("centralWidget");
+        label = new QLabel(centralWidget);
+        label->setObjectName("label");
+        label->setGeometry(QRect(170, 10, 711, 41));
+        QFont font1;
+        font1.setPointSize(30);
+        font1.setBold(true);
+        font1.setItalic(true);
+        font1.setUnderline(false);
+        font1.setStrikeOut(false);
+        font1.setKerning(true);
+        label->setFont(font1);
+        label->setAutoFillBackground(false);
+        label->setLineWidth(10);
+        label->setMidLineWidth(10);
+        label->setTextFormat(Qt::TextFormat::AutoText);
+        lineEdit = new QLineEdit(centralWidget);
+        lineEdit->setObjectName("lineEdit");
+        lineEdit->setGeometry(QRect(420, 140, 221, 51));
+        label_2 = new QLabel(centralWidget);
+        label_2->setObjectName("label_2");
+        label_2->setGeometry(QRect(360, 150, 51, 41));
+        QFont font2;
+        font2.setPointSize(15);
+        font2.setUnderline(false);
+        font2.setKerning(true);
+        label_2->setFont(font2);
+        pushButton = new QPushButton(centralWidget);
+        pushButton->setObjectName("pushButton");
+        pushButton->setGeometry(QRect(440, 200, 181, 51));
+        pushButton->setFont(font2);
+        v01_demoClass->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(v01_demoClass);
         menuBar->setObjectName("menuBar");
+        menuBar->setGeometry(QRect(0, 0, 1087, 33));
         v01_demoClass->setMenuBar(menuBar);
         mainToolBar = new QToolBar(v01_demoClass);
         mainToolBar->setObjectName("mainToolBar");
-        v01_demoClass->addToolBar(mainToolBar);
-        centralWidget = new QWidget(v01_demoClass);
-        centralWidget->setObjectName("centralWidget");
-        v01_demoClass->setCentralWidget(centralWidget);
+        v01_demoClass->addToolBar(Qt::ToolBarArea::LeftToolBarArea, mainToolBar);
         statusBar = new QStatusBar(v01_demoClass);
         statusBar->setObjectName("statusBar");
         v01_demoClass->setStatusBar(statusBar);
@@ -53,6 +96,9 @@ public:
     void retranslateUi(QMainWindow *v01_demoClass)
     {
         v01_demoClass->setWindowTitle(QCoreApplication::translate("v01_demoClass", "v01_demo", nullptr));
+        label->setText(QCoreApplication::translate("v01_demoClass", "\346\254\242\350\277\216\346\235\245\345\210\260\347\221\236\351\207\221\346\236\227\347\255\224\351\242\230_demo v0.1!", nullptr));
+        label_2->setText(QCoreApplication::translate("v01_demoClass", "\347\255\224\346\241\210:", nullptr));
+        pushButton->setText(QCoreApplication::translate("v01_demoClass", "\346\217\220\344\272\244", nullptr));
     } // retranslateUi
 
 };
