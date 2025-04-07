@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1087</width>
-    <height>445</height>
+    <width>1076</width>
+    <height>436</height>
    </rect>
   </property>
   <property name="font">
@@ -20,7 +20,7 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>v01_demo</string>
+   <string>瑞金林答题 重置 v1.0.0</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QLabel" name="label">
@@ -52,7 +52,7 @@
      <number>10</number>
     </property>
     <property name="text">
-     <string>欢迎来到瑞金林答题_demo v0.1!</string>
+     <string>欢迎来到瑞金林答题_demo v1.0.0!</string>
     </property>
     <property name="textFormat">
      <enum>Qt::TextFormat::AutoText</enum>
@@ -91,8 +91,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>200</y>
+      <x>430</x>
+      <y>240</y>
       <width>181</width>
       <height>51</height>
      </rect>
@@ -114,24 +114,94 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1087</width>
+     <width>1076</width>
      <height>33</height>
     </rect>
    </property>
+   <property name="windowTitle">
+    <string>瑞金林答题 重置 v1.0.0</string>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>关于</string>
+    </property>
+    <addaction name="banben"/>
+    <addaction name="about"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>设置</string>
+    </property>
+   </widget>
+   <addaction name="menu_2"/>
+   <addaction name="menu"/>
   </widget>
-  <widget class="QToolBar" name="mainToolBar">
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
    <attribute name="toolBarArea">
-    <enum>LeftToolBarArea</enum>
+    <enum>TopToolBarArea</enum>
    </attribute>
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
+   <addaction name="separator"/>
+   <addaction name="banben"/>
+   <addaction name="about"/>
   </widget>
-  <widget class="QStatusBar" name="statusBar"/>
+  <action name="about">
+   <property name="text">
+    <string>仓库地址</string>
+   </property>
+  </action>
+  <action name="banben">
+   <property name="text">
+    <string>版本</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
   <include location="v01_demo.qrc"/>
  </resources>
- <connections/>
+ <connections>
+  <connection>
+   <sender>about</sender>
+   <signal>triggered()</signal>
+   <receiver>v01_demoClass</receiver>
+   <slot>Enter_button()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>537</x>
+     <y>217</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>banben</sender>
+   <signal>triggered()</signal>
+   <receiver>v01_demoClass</receiver>
+   <slot>banben()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>537</x>
+     <y>217</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>Enter_button()</slot>
+  <slot>banben()</slot>
+ </slots>
 </ui>

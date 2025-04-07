@@ -13,4 +13,6 @@ public:
 
 private:
     Ui::v01_demoClass ui;
+    private slots:void Enter_button();
+    private slots:void banben();
 };
